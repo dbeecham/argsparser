@@ -12,7 +12,11 @@ int usage(void) {
     return 1;
 }
 
-int main(int argc, const char * const argv[])
+
+int main (
+    int argc,
+    const char * const argv[]
+)
 {
 
     struct args_opts_s opts = {0};
